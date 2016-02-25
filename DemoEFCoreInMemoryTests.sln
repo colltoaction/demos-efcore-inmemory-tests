@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{15AFB333-F8EF-40D2-883A-0538973A93D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1BBCFD07-CA52-42DC-AE12-B84D9A3D4AE7}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Service", "src\Service\Service.xproj", "{1FFCC80E-D361-4B34-A43D-9A4245FF9FCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9849B3DC-F3E3-418A-8B24-9F3FAE64A66D}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Service.Tests", "test\Service.Tests\Service.Tests.xproj", "{66671777-E79B-4FBF-B2AA-6AD5F66EE2FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FFCC80E-D361-4B34-A43D-9A4245FF9FCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FFCC80E-D361-4B34-A43D-9A4245FF9FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FFCC80E-D361-4B34-A43D-9A4245FF9FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FFCC80E-D361-4B34-A43D-9A4245FF9FCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66671777-E79B-4FBF-B2AA-6AD5F66EE2FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66671777-E79B-4FBF-B2AA-6AD5F66EE2FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66671777-E79B-4FBF-B2AA-6AD5F66EE2FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66671777-E79B-4FBF-B2AA-6AD5F66EE2FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1FFCC80E-D361-4B34-A43D-9A4245FF9FCB} = {15AFB333-F8EF-40D2-883A-0538973A93D9}
+		{66671777-E79B-4FBF-B2AA-6AD5F66EE2FC} = {9849B3DC-F3E3-418A-8B24-9F3FAE64A66D}
+	EndGlobalSection
+EndGlobal
