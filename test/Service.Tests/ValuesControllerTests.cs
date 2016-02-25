@@ -9,7 +9,7 @@ namespace Service.Test
     public class ValuesControllerTests
     {
         [Fact]
-        public void ReturnDefaultValues()
+        public void ReturnDatabaseValues()
         {
             var id = Guid.NewGuid();
             var optionsBuilder = new DbContextOptionsBuilder();
